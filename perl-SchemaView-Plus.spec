@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	SchemaView-Plus
+%define		pdir	Math
+%define		pnam	SchemaView-Plus
 Summary:	SchemaView-Plus - drawing database schemas
 Summary(pl):	SchemaView-Plus - rysowanie schematów baz danych
 Name:		perl-SchemaView-Plus
