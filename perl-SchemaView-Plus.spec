@@ -22,7 +22,7 @@ BuildRequires:	perl-Tk-FontDialog
 BuildRequires:	perl-Tk-MListbox
 BuildRequires:	perl-XML-Dumper >= 0.4
 BuildRequires:	perl-XML-Parser
-BuildRequires:	perl-devel >= 5.8.0
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-DBI >= 1.12
 Requires:	perl-Tk >= 800.014
