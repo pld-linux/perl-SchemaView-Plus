@@ -59,7 +59,6 @@ Schemat mo¿na wydrukowaæ do pliku PostScript.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
