@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	SchemaView-Plus
 Summary:	SchemaView-Plus - drawing database schemas
-Summary(pl):	SchemaView-Plus - rysowanie schematów baz danych
+Summary(pl.UTF-8):   SchemaView-Plus - rysowanie schematÃ³w baz danych
 Name:		perl-SchemaView-Plus
 Version:	0.16
 Release:	1
@@ -41,17 +41,17 @@ projects (e.g. dropping off some relationships etc.). You can specify
 one filename on command line for autoloading it after GUI start up.
 Schema can be printed to PostScript file.
 
-%description -l pl
+%description -l pl.UTF-8
 SchemaView Plus to GUI do odtwarzania, rysowania i drukowania
-schematów baz danych. Schematy mog± byæ pozyskiwane przy u¿yciu
-DBIx::SystemCatalog (aktualnie z podstawow± obs³ug± wszystkich
-sterowników DBD, lepsz± obs³ug± dla PostgreSQL-a i nieco lepsz± dla
-Oracle'a). Program u¿ywa XML-a do zapisywania i odczytywania danych
-z plików tekstowych. Mo¿na pisaæ dowolne filtry do modyfikowania
-tych plików XML do dodawania nowej funkcjonalno¶ci opartej na w³asnych
-projektach (np. porzucanie czê¶ci relacji). Mo¿na podaæ jeden plik z
-linii poleceñ w celu automatycznego wczytania go po starcie GUI.
-Schemat mo¿na wydrukowaæ do pliku PostScript.
+schematÃ³w baz danych. Schematy mogÄ… byÄ‡ pozyskiwane przy uÅ¼yciu
+DBIx::SystemCatalog (aktualnie z podstawowÄ… obsÅ‚ugÄ… wszystkich
+sterownikÃ³w DBD, lepszÄ… obsÅ‚ugÄ… dla PostgreSQL-a i nieco lepszÄ… dla
+Oracle'a). Program uÅ¼ywa XML-a do zapisywania i odczytywania danych
+z plikÃ³w tekstowych. MoÅ¼na pisaÄ‡ dowolne filtry do modyfikowania
+tych plikÃ³w XML do dodawania nowej funkcjonalnoÅ›ci opartej na wÅ‚asnych
+projektach (np. porzucanie czÄ™Å›ci relacji). MoÅ¼na podaÄ‡ jeden plik z
+linii poleceÅ„ w celu automatycznego wczytania go po starcie GUI.
+Schemat moÅ¼na wydrukowaÄ‡ do pliku PostScript.
 
 %prep
 %setup -q -n %{pnam}-%{version}
