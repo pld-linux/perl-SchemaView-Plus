@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	SchemaView-Plus
 Summary:	SchemaView-Plus - drawing database schemas
-Summary(pl.UTF-8):   SchemaView-Plus - rysowanie schematów baz danych
+Summary(pl.UTF-8):	SchemaView-Plus - rysowanie schematów baz danych
 Name:		perl-SchemaView-Plus
 Version:	0.16
 Release:	1
