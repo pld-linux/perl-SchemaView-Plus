@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	SchemaView-Plus
+%include	/usr/lib/rpm/macros.perl
 Summary:	SchemaView-Plus - drawing database schemas
 Summary(pl.UTF-8):	SchemaView-Plus - rysowanie schematów baz danych
 Name:		perl-SchemaView-Plus
@@ -15,9 +15,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	12bf54544099f03fb0ab3285732c5c45
+URL:		http://search.cpan.org/dist/Math-SchemaView-Plus/
+BuildRequires:	perl(Tk::ProgressBar)
 BuildRequires:	perl-DBI >= 1.12
 BuildRequires:	perl-Tk >= 800.014
-BuildRequires:	perl(Tk::ProgressBar)
 BuildRequires:	perl-Tk-FontDialog
 BuildRequires:	perl-Tk-MListbox
 BuildRequires:	perl-XML-Dumper >= 0.4
@@ -46,9 +47,9 @@ SchemaView Plus to GUI do odtwarzania, rysowania i drukowania
 schematów baz danych. Schematy mogą być pozyskiwane przy użyciu
 DBIx::SystemCatalog (aktualnie z podstawową obsługą wszystkich
 sterowników DBD, lepszą obsługą dla PostgreSQL-a i nieco lepszą dla
-Oracle'a). Program używa XML-a do zapisywania i odczytywania danych
-z plików tekstowych. Można pisać dowolne filtry do modyfikowania
-tych plików XML do dodawania nowej funkcjonalności opartej na własnych
+Oracle'a). Program używa XML-a do zapisywania i odczytywania danych z
+plików tekstowych. Można pisać dowolne filtry do modyfikowania tych
+plików XML do dodawania nowej funkcjonalności opartej na własnych
 projektach (np. porzucanie części relacji). Można podać jeden plik z
 linii poleceń w celu automatycznego wczytania go po starcie GUI.
 Schemat można wydrukować do pliku PostScript.
