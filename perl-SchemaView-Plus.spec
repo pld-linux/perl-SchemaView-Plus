@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	SchemaView-Plus
-%include	/usr/lib/rpm/macros.perl
 Summary:	SchemaView-Plus - drawing database schemas
 Summary(pl.UTF-8):	SchemaView-Plus - rysowanie schematów baz danych
 Name:		perl-SchemaView-Plus
